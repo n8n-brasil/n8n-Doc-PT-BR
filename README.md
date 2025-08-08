@@ -195,3 +195,31 @@ npm run progress:update
 ```
 
 Isso atualiza o corpo e a data do post em `blog/2025-01-01-boas-vindas.md`. Em seguida, faça o build/serve para validar.
+
+## Como Fazer Deploy no GitHub Pages
+
+Para publicar a documentação no GitHub Pages (branch `gh-pages`), use o script `deploy:pages`.
+
+- **Windows PowerShell:**
+  ```powershell
+  $env:GIT_USER='SEU_USUARIO_GITHUB'; npm run deploy:pages
+  ```
+- **Linux/macOS:**
+  ```bash
+  GIT_USER=SEU_USUARIO_GITHUB npm run deploy:pages
+  ```
+
+O site será publicado em `https://n8n-brasil.github.io/n8n-Doc-PT-BR/`.
+
+## Compatibilidade de Node.js
+
+Este projeto usa **Node.js 20.x** como versão principal para desenvolvimento e CI/CD. O Node.js 18.x foi removido da matriz de CI devido a incompatibilidades conhecidas com Docusaurus 3.8.1.
+
+**Versões suportadas:**
+- ✅ Node.js 20.x (recomendado)
+- ❌ Node.js 18.x (incompatível com Docusaurus 3.8.1)
+
+**Dependências críticas:**
+- Docusaurus 3.8.1
+- React 18.2.0
+- TypeScript 5.8.3
