@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -55,7 +54,6 @@ function HomepageHeader() {
 function DocumentationProgress() { return null; }
 
 export default function Home(): React.ReactElement {
-  const { siteConfig } = useDocusaurusContext();
   const blogUrl = useBaseUrl('blog');
   return (
     <Layout

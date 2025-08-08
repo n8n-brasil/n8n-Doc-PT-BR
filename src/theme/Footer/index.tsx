@@ -93,7 +93,10 @@ function Footer(): React.JSX.Element | null {
           return;
         }
       }
-    } catch {}
+    } catch (error) {
+      // Evita falha silenciosa e satisfaz regra no-empty
+      console.debug('Cache inválido ou inacessível no footer:', error);
+    }
 
     fetchDevelopers();
   }, []);
