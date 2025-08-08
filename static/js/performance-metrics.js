@@ -1,9 +1,9 @@
 // Script de métricas de performance
+/* global PerformanceObserver, CustomEvent */
 (function() {
   'use strict';
   
   // Declarações globais para evitar erros de linting
-  /* global PerformanceObserver */
   
   // Função para medir métricas de performance
   function measurePerformance() {

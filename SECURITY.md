@@ -214,7 +214,7 @@ Edite `.pre-commit-config.yaml`:
       language: script
 ```
 
-## 🚀 Instalação Completa
+## Instalação Completa
 
 ```bash
 # 1. Instalar dependências

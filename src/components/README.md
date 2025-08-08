@@ -200,7 +200,7 @@ import { StatItem } from '@site/src/components/common';
 <StatItem label="Total" value={100} icon="checkmark" />
 ```
 
-## 🚀 Performance
+## Performance
 
 - Lazy loading para processadores pesados
 - Memoização com React.memo quando apropriado

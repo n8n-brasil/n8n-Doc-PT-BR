@@ -154,6 +154,12 @@ npm run build
 
 # Servir build de produção
 npm run serve
+
+# Deploy para GitHub Pages
+# PowerShell (Windows)
+$env:GIT_USER='SEU_USUARIO_GITHUB'; npm run deploy:pages
+# Linux/macOS
+GIT_USER=SEU_USUARIO_GITHUB npm run deploy:pages
 ```
 
 ### Solução de Problemas
