@@ -5,6 +5,7 @@ import { useColorMode } from '@docusaurus/theme-common';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import { useThemeConfig } from '@docusaurus/theme-common';
+import IonicIcon from '../../components/IonicIcon';
 
 interface GitHubUser {
   login: string;
@@ -173,7 +174,9 @@ function Footer(): React.JSX.Element | null {
           
           {/* Nova seção para pedido de estrela no GitHub */}
           <div className="col footer__col">
-            <div className="footer__title">⭐ Apoie o Projeto</div>
+            <div className="footer__title">
+              <IonicIcon name="star-outline" size={16} color="currentColor" /> Apoie o Projeto
+            </div>
             <div className={styles.starSection}>
               <p className={styles.starText}>
                 Ajude-nos a crescer! Dê uma estrela no GitHub e ajude outras pessoas desenvolvedoras brasileiras a descobrir esta documentação.
@@ -190,7 +193,7 @@ function Footer(): React.JSX.Element | null {
                 Dar Estrela no GitHub
               </a>
               <p className={styles.starSubtext}>
-                Sua estrela nos motiva a continuar melhorando! 🚀
+                <IonicIcon name="rocket-outline" size={16} color="currentColor" /> Sua estrela nos motiva a continuar melhorando!
               </p>
             </div>
           </div>

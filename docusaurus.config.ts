@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "n8n Brasil 🇧🇷",
+  title: "n8n Brasil",
   tagline:
     "Uma iniciativa da comunidade brasileira para democratizar a automação, uma linha de código e um workflow de cada vez.",
   favicon: "img/favicon-br.svg",

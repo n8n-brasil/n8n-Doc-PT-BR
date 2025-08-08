@@ -2,7 +2,7 @@
 
 Este arquivo contém todos os comandos para localizar rapidamente problemas na documentação.
 
-## 🚀 Execução Rápida
+## Execução Rápida
 
 ```bash
 # Verificação completa de todos os problemas
