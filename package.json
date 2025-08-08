@@ -125,7 +125,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=20.0"
   },
   "resolutions": {
     "core-js": "^3.35.1",
