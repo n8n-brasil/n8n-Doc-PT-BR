@@ -1,3 +1,8 @@
+> [!WARNING]
+> **Projeto pausado.** No momento, este projeto está pausado e a documentação está muito desatualizada em relação às versões atuais do n8n. Para informações atualizadas, consulte a documentação oficial: [docs.n8n.io](https://docs.n8n.io).
+>
+> _EN: This project is paused and the docs are very outdated compared to current n8n versions. Please check the official docs at [docs.n8n.io](https://docs.n8n.io)._
+
 # N8N Documentation BR
 
 ![Banner da Documentação n8n PT-BR - Automação de Workflows em Português](https://raw.githubusercontent.com/n8n-brasil/n8n-Doc-PT-BR/main/static/img/banner_n8n_ptbr.png)
@@ -98,6 +103,12 @@ Para manter a qualidade e evitar redundâncias:
 
 - **Documentação online:**
 [https://n8n-brasil.github.io/n8n-Doc-PT-BR/](https://n8n-brasil.github.io/n8n-Doc-PT-BR/)
+
+---
+
+## Tem dúvida? Pergunte aqui
+
+Ficou travado em algum workflow, instalação ou integração? Pergunte em [Dúvidas Técnicas](https://github.com/n8n-brasil/n8n-Doc-PT-BR/discussions/categories/d%C3%BAvidas-t%C3%A9cnicas), nas Discussions do projeto, e a comunidade ajuda como puder. Com o projeto pausado, as respostas podem demorar. Quando uma resposta resolver, marque-a como resposta, assim ela ajuda quem chegar depois com a mesma dúvida.
 
 ---
 
