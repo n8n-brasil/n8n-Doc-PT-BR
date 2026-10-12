@@ -295,6 +295,13 @@ const config: Config = {
           className: "navbar-blog-link",
         },
 
+        // Dúvidas Técnicas (GitHub Discussions)
+        {
+          label: "Dúvidas",
+          href: "https://github.com/n8n-brasil/n8n-Doc-PT-BR/discussions/categories/d%C3%BAvidas-t%C3%A9cnicas",
+          position: "right",
+        },
+
         // GitHub link com ícone nativo
         {
           href: "https://github.com/n8n-brasil/n8n-Doc-PT-BR",
@@ -379,6 +386,10 @@ const config: Config = {
             {
               label: "GitHub",
               to: "/comunidade/github",
+            },
+            {
+              label: "Tem dúvida? Pergunte aqui",
+              href: "https://github.com/n8n-brasil/n8n-Doc-PT-BR/discussions/categories/d%C3%BAvidas-t%C3%A9cnicas",
             },
           ],
         },

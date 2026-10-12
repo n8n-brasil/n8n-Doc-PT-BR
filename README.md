@@ -101,6 +101,12 @@ Para manter a qualidade e evitar redundâncias:
 
 ---
 
+## Tem dúvida? Pergunte aqui
+
+Ficou travado em algum workflow, instalação ou integração? Abra uma pergunta em [Dúvidas Técnicas](https://github.com/n8n-brasil/n8n-Doc-PT-BR/discussions/categories/d%C3%BAvidas-t%C3%A9cnicas), nas Discussions do projeto. Quando uma resposta resolver, marque-a como resposta, assim ela ajuda quem chegar depois com a mesma dúvida.
+
+---
+
 ## Compatibilidade de Node.js
 
 Este projeto usa **Node.js 20.x** como versão principal para desenvolvimento e CI/CD. O Node.js 18.x foi removido da matriz de CI devido a incompatibilidades conhecidas com Docusaurus 3.8.1.
