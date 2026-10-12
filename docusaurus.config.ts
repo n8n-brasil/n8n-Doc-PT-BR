@@ -481,13 +481,12 @@ const config: Config = {
     },
 
     announcementBar: {
-      id: "support_us",
-        content:
-        '<ion-icon name="sparkles-outline" aria-hidden="true"></ion-icon> <strong>n8n Brasil</strong> — Documentação em português! ' +
-        '<a target="_blank" rel="noopener noreferrer" aria-label="Contribua no GitHub do n8n Brasil" ' +
-        'href="https://github.com/n8n-brasil/n8n-Doc-PT-BR">Contribua no GitHub</a>',
-      backgroundColor: "#fafbfc",
-      textColor: "#091E42",
+      id: "projeto_pausado",
+      content:
+        '⚠️ <strong>Projeto pausado:</strong> esta documentação está muito desatualizada em relação às versões atuais do n8n. ' +
+        'Consulte a <a target="_blank" rel="noopener noreferrer" href="https://docs.n8n.io">documentação oficial (docs.n8n.io)</a>.',
+      backgroundColor: "#fff4e5",
+      textColor: "#663c00",
       isCloseable: false,
     },
 
