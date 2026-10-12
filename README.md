@@ -1,5 +1,5 @@
 > [!WARNING]
-> **Projeto pausado.** No momento, este projeto está pausado e a documentação está muito desatualizada em relação às versões atuais do n8n. Para informações atualizadas, consulte a documentação oficial: [docs.n8n.io](https://docs.n8n.io).
+> ⚠️ **Projeto pausado:** esta documentação está muito desatualizada em relação às versões atuais do n8n. Consulte a [documentação oficial (docs.n8n.io)](https://docs.n8n.io).
 >
 > _EN: This project is paused and the docs are very outdated compared to current n8n versions. Please check the official docs at [docs.n8n.io](https://docs.n8n.io)._
 
